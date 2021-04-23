@@ -31,7 +31,7 @@ public class SSLServer {
 
     private static final int DEFAULT_PORT = 7777;
 
-    private static final String SERVER_KEY_STORE_PASSWORD = "123456";
+    private static final String SERVER_KEY_STORE_PASSWORD = "server";
     private static final String SERVER_TRUST_KEY_STORE_PASSWORD = "123456";
 
     private SSLServerSocket serverSocket;
